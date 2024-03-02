@@ -1,0 +1,1185 @@
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./components/assets/FontsFree-Net-proxima_nova_reg-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@media (max-width:600px) {
+    #carouselExampleCaptions {
+      margin-top: 55px;
+  
+    }
+  }
+
+  .nav-link{
+    font-family: Cormorant;
+    font-size: 17.6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  .nav-linkk{
+    font-family: Cormorant;
+    color: black;
+    font-size: small;
+
+  }
+  a {
+    text-decoration: none;
+    outline: none; /* Optional: removes the blue focus border */
+    color: #2f0071;
+  }
+  #homeSubtext {
+    font-size: 18px;
+  font-style: italic;
+    color: #505050;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 2px;
+  }
+  
+  p {
+    font-family: Proxima Nova;
+    color: #171717;
+    
+    font-size:16px;
+  
+  
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Cormorant;
+    /* font-family: Cinzel; */
+    /* font-family: Bonnes; */
+    font-weight: 1000;
+  }
+  
+  .navBrand {
+    font-family: Cormorant;
+  
+  
+  }
+  
+  .navLink {
+    font-family: Cinzel;
+  
+  }
+  
+  #headingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+  }
+  
+  #headingContainer #heading {
+    text-align: center;
+    color: #100124;
+  
+  }
+  
+  #row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #productCard {
+    margin: 40px;
+    height: 250px;
+    width: 350px;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+  
+  }
+  
+  #productCard #productImageContainer {
+    height: 90%;
+    background-color: black;
+  }
+  
+  #productCard:hover {
+    background-color: rgb(252, 252, 252);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 20px;
+  }
+   #productName {
+    color: rgb(16, 2, 67);
+    bottom: 0px;
+    cursor: pointer;
+   
+    margin-top: 10px;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+  
+  #productName:hover {
+    color: rgb(1, 146, 194);
+    bottom: 0px;
+    text-shadow: 3px solid rgb(8, 0, 0);
+    cursor: pointer;  
+  }
+  #imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+  }
+  .prodImg{
+    height:350px;
+    width: 350px;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+   
+    
+  
+  }
+  .productTile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .prodImg:hover{
+    transform: scale(1.05); 
+    border-radius: 50px;
+    box-shadow: rgba(37, 215, 242, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+  .bg-custom-color {
+    background-color: #ffcc00;
+    /* Replace with your desired color */
+  }
+  
+  #aboutBoxLeft1 {
+    height: 350px;
+    width: 48vw;
+    background-image: url('./components/assets/about1.png');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+  }
+  
+  #aboutBoxLeft3 {
+    height: 350px;
+    width: 48vw;
+    background-image: url('./components/assets/about3.png');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+  }
+  #aboutBoxRight4{
+    height: 350px;
+    width: 48vw;
+    background-image: url('./components/assets/about4.png');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+  }
+  #aboutBoxLeft5 {
+    height: 350px;
+    width: 48vw;
+    background-image: url('./components/assets/about5.png');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+  }
+  
+  #RightContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #aboutBoxRight2 {
+  
+    height: 350px;
+    width: 48vw;
+    background-image: url('./components/assets/about2.png');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+  }
+  
+  #abtTextContent {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  
+  @media (max-width:600px) {
+  .prodImg{
+    width: 80vw;
+    height: 80vw;
+  }
+  
+    #aboutBoxLeft1 {
+      height: 200px;
+      width: 100vw;
+  
+    }
+  
+    #aboutBoxLeft3 {
+      height: 200px;
+      width: 100vw;
+  
+    }
+  
+    #aboutBoxRight2 {
+  
+      height: 200px;
+      width: 100vw;
+  
+    }
+   #aboutBoxRight4{
+    height: 200px;
+    width: 100vw;
+  
+  
+   }
+   #aboutBoxLeft5{
+    height: 200px;
+    width: 100vw;
+  
+   }
+    #strengthSection {
+      padding-top: 50px;
+      
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #abtTextContent {
+      padding-top: 25px;
+      padding-bottom: 15px;
+    }
+  
+  
+  
+  }
+  
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  /* card glass */
+  
+  
+  
+  /*  */
+  
+  #strengthSection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: rgba(32, 32, 32, 0.383);
+    /* background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(127,127,129,1) 41%, rgba(255,255,255,1) 100%); */
+    background-image: url(./components/assets/strengthBg.png);
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  }
+  
+  .pageCard {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+    
+  
+   margin-left: 40px;
+   margin-top: 20px;
+    height: 53vh;
+    width: 18vw;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    background-image: url('./components/assets/pagecurl-removebg-preview.png');
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  }
+  
+  .pageCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.447) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
+  }
+  
+  .pageCardTitle {
+    color: #ffffff;
+    margin-top: 35px;
+  }
+  @media screen and (max-width: 912px){
+
+    .pageCard{
+      width:80vw;
+      height: 65vh;
+    
+
+    }
+  }
+  
+  .pageCardContent {
+    margin-top: 5px;
+    padding: 20px;
+  
+    font-size: 5vh;
+    color: rgb(15, 15, 15);
+    margin-left: 10px;
+  }
+  
+  /* Infrastructure */
+  
+  .infraTopContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .infraTopImage {
+    margin-top: 60px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    background-image: url('./components/assets/infra/infra.png');
+    padding: 70px;
+  
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  }
+  
+  .infraMiddle {
+    height: 300px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.27);
+  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    padding: 30px;
+  }
+  
+  .infraHeadingContainer{
+    display: flex;
+    flex-direction: row;
+  }
+  .infraBorder{
+    width: 5px;
+    height: 35px;
+    background-color: #100124;
+    margin-right: 15px;
+  }
+  
+  .infraContent {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+  
+  }
+  
+  .infraImageLeft1 {
+    height: 350px;
+    width: calc(50vw-100px);
+  
+    background-color: #0093E9;
+    background-image: url('./components/assets/rawM.webp');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+  
+  
+  }
+  
+  .infraImageLeft3 {
+    height: 350px;
+    width: calc(50vw-100px);
+  
+    background-color: #0093E9;
+    background-image: url('./components/assets/IndustrialDrill.webp');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+  
+  }
+  
+  .infraImageRight2 {
+  
+    background-color: #0093E9;
+    background-image: url('./components/assets/QC.webp');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+    height: 350px;
+    width: calc(50vw-100px);
+  
+  }
+  
+  .infraImageRight4 {
+  
+    background-color: #0093E9;
+    background-image: url('./components/assets/stockyard.png');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+    height: 350px;
+    width: calc(50vw-100px);
+  
+  }
+  .infraImageLeft5{
+    
+    background-color: #0093E9;
+    background-image: url('./components/assets/industryLead.png');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+    height: 350px;
+    width: calc(50vw-100px);
+  
+  }
+  .infraImageRight6{
+  
+    background-color: #0093E9;
+    background-image: url('./components/assets/powder.webp');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+    height: 350px;
+    width: calc(50vw-100px);
+  
+  }
+  
+  @media (max-width:600px) {
+    .infraImageLeft1 {
+      height: 350px;
+      width: 100vw;
+    
+    
+      background-size: cover;
+      /* This is to emulate object-fit: fill */
+      background-position: center center;
+    
+    
+    
+    }
+    
+    .infraImageLeft3 {
+      height: 350px;
+      width: 100vw;
+    
+      
+      background-size: cover;
+      /* This is to emulate object-fit: fill */
+      background-position: center center;
+    
+    
+    }
+    
+    .infraImageRight2 {
+    
+     
+      background-size: cover;
+      /* This is to emulate object-fit: fill */
+      background-position: center center;
+    
+      height: 350px;
+      width: 100vw;
+    
+    }
+    
+    .infraImageRight4 {
+    
+     
+      background-size: cover;
+      /* This is to emulate object-fit: fill */
+      background-position: center center;
+    
+      height: 350px;
+      width: 100vw;
+    
+    }
+    .infraImageLeft5{
+      
+     
+      background-size: cover;
+      /* This is to emulate object-fit: fill */
+      background-position: center center;
+    
+      height: 350px;
+      width: 100vw;
+    
+    }
+    .infraImageRight6{
+    
+ 
+      background-size: cover;
+      /* This is to emulate object-fit: fill */
+      background-position: center center;
+    
+      height: 350px;
+      width: 100vw;
+    
+    }
+
+    .infraContent {
+      padding-left: 0px;
+      padding-right: 0px;
+  
+  
+    }
+  
+    .infraTopImage {
+      height: 70vh;
+    }
+  
+    .infraMiddle {
+      height: 400px;
+      width: 350px;
+    }
+  }
+  
+  /* about */
+  .aboutTop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 50px;
+    
+    background-image: url('./components/assets/quartz.jpg');
+    background-size: cover;
+   
+    background-position: center center;
+    margin-bottom: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  
+  }
+  
+  .aboutMiddle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 35vw;
+    background: rgba(255, 255, 255, 0.27);
+  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    padding: 30px;
+    object-fit: cover;
+  
+  
+  }
+  
+  @media (max-width:600px) {
+  
+    .aboutMiddle {
+      margin-top: 50px;
+      width: 80vw;
+      height: 35vh;
+    }
+  
+  }
+  
+  /* contact */
+  
+  
+  .ContactTopContainer {
+    width: 100%;
+    height: 50vh;
+    
+    background-image: url('./components/assets/contact.jpg');
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+  }
+  
+  #contactSection {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  
+  #secondContainer {
+  
+    background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+  
+    padding: 20px;
+  }
+  #secondContainer2 {
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  #firstContainer {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  
+    padding: 20px;
+  
+  }
+  
+  @media (max-width:600px) {
+    #contactSection {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+  }
+  
+  /* footer */
+  
+  /* Footer.css */
+  
+  /* Footer.css */
+  .footer {
+    background-image: url('./components/assets/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  
+  
+  /* demo */
+  
+  .lleftImageContainer {}
+  
+  .topLine {
+    height: 50px;
+    background-color: rgb(0, 0, 60);
+  
+    width: 100%;
+    z-index: -1;
+    margin-top: 25px;
+  }
+  
+  .iimageContaiener {
+    height: 200px;
+    width: 80%;
+    background-color: grey;
+  
+  }
+  
+  .contactImage {
+    width: 300px;
+    margin-top: -50px;
+  }
+  
+  iframe {}
+  
+  
+  /* whatsapp */
+  
+  .whatsapp-button {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  .whatsapp-button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+  }
+  
+  .whatsapp-button img:hover {
+    box-shadow: 0px 0px 10px rgba(60, 252, 16, 0.684);
+  
+  }
+  
+  /* microSilica page */
+  .productSection{
+    margin-bottom: 60px;
+  }
+  
+  #productPageImageContainer{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  
+  .slabPageImage{
+   width: 500px;
+   height: 500px;
+  }
+  #productPageDescriptionContainer{
+   
+  
+    text-align: left;
+    margin-top: 40px;
+  }
+  .productPageImage{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .BorderLine{
+    border: solid 1px #d9d9d9;
+    width: 95%;
+    margin-top: 30px;
+    
+  }
+  @media (max-width:600px) {
+    .slabPageImage{
+      width: 100vw;
+      height: 300px;
+     }
+   .productPageImage{
+    width: 100vw;
+   }
+   .BorderLine{
+    width: 100%;
+   
+  
+   }
+  
+    }
+  
+  
+  
+    /* slider */
+  
+    .imageSlider{
+      width: 39vw;
+      background-size: cover;
+    /* This is to emulate object-fit: fill */
+    background-position: center center;
+    
+    
+    }
+    .sliderImage {
+      max-width: 100%;
+      height: auto;
+      max-height: 100%;
+      object-fit: contain;
+  }
+    .slabImages{
+      height: 39vw;
+      width: 39vw;
+    }
+  
+    @media only screen and (max-width: 767.98px) {
+  
+      .imageSlider{
+        width: 100vw;
+        border: none;
+      }
+      .slabImages{
+        height: 50vh;
+        width: 100vw;
+      }
+      .box{
+        height: 0px;
+        width: 100px;
+      }
+    }
+  
+  
+    .footer {
+      background-image: url('./components/assets/contactImage.png');
+      background-size: cover;
+      color: white;  /* Set text color to make it visible on the image */
+      padding-bottom: 0px;
+    }
+    .carousel-caption {
+      text-align: left;
+      
+      
+      margin-bottom: 38vh;
+     
+    }
+    .carousel-item{
+      
+     
+    }
+    .caroselHeader{
+      background: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0.278), rgba(255, 255, 255, 0.278));
+      color: black;
+      padding: 10px;
+      border-radius: 20px;
+      background-clip: text;
+      -webkit-background-clip: text;    
+      
+    }
+    .caroselSubtext{
+      background: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0.278), rgba(255, 255, 255, 0.278));
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      border-radius: 20px;
+      background-clip: text;
+      -webkit-background-clip: text;    
+      backdrop-filter: blur(5px);
+
+    }
+    .table{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .box{
+      height: 50px;
+      width: 100px;
+    }
+      
+    @media only screen and (max-width: 767.98px) {
+  
+ 
+      .box{
+        height: 0px;
+        width: 100px;
+      }
+    }
+
+
+
+    /* slider */
+
+    /* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+html {
+  /* this makes sure the padding and the border is included in the box sizing */
+  box-sizing: border-box;
+  
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+  overflow-y: inherit;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070F4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4070F4;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+
+.slick-next:before, .slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #4070f4;
+}
+@media screen and (max-width: 768px) {
+  .slick-next:before, .slick-prev:before {
+    font-size: 0px;
+    line-height: 1;
+    opacity: .75;
+    color: #4070f400;
+  }
+}
+
+
+
+/*  */
+.cardContainer{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  padding: 10px;
+ }
+
+.strengthCard{
+width: calc(100vw/4);
+height: 400px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+  
+}
+.strengthCard:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.cardTop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(215, 215, 215);
+  border-top: 8px solid rgb(179, 179, 179);
+  border-bottom: 5px solid  rgb(179, 179, 179);
+}
+.cardBottom{
+  display: flex;
+ 
+  justify-content: center;
+  width: 85%;
+  height: 70%;
+  background-color: rgb(237, 237, 237);
+  padding: 10px;
+}
+.strengths{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 800px){
+  .cardContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .strengthCard{
+     width: 75vw;
+
+      
+  }
+}
+.detailsCard{
+  width: 100%;
+ 
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+
+padding: 40px;
+
+
+
+backdrop-filter: blur(px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgb(255, 255, 255);
+}
+.detailCardItem{
+  display: flex;
+  flex-direction: row;
+}
+.carouselButton{
+  width: 100px;
+  padding: 10px;
+  font-weight: 600;
+  font-family: Cormorant;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 20px;
+}
+.carouselButton:hover{
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.05); 
+
+
+}
+
+/* table */
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: center;
+  
+ 
+  
+}
+#phoneNO{
+
+}
+
+@media screen and (max-width: 768px) { 
+
+
+}
+/* modal */
+@keyframes modalAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.custom-modal {
+  animation: modalAnimation 0.5s ease forwards;
+}
+.footerLogo{
+
+}
